@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Google fonnts*/
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8faf9;
+    color: #222;
+  }
+
+
+/* About Section */
+.about {
+    background: white;
+    padding: 4rem;
+  }
+  .about-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+  }
+  .about-content > div {
+      flex: 1 1 100px;
+      margin: 0 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: left;
+  }
+  
+  .about-image img {
+      max-width: 300px;
+      height: auto;
+      object-fit: cover;
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  }
+  .about-info {
+      flex: 1 1 100px;
+  }
+  
+  .about-info h3 {
+      color: #333;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+  }
+  
+  .about-info h2 {
+      margin: 0 0 1rem 0;
+      font-size: 2rem;
+  }
+  .about-info p {
+        margin: 2px 0;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: #888;
+  }
+  .about-details{
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+      font-size: 1rem;
+      column-count: 2;
+    column-gap: 2rem;
+  }
+  .about-social {
+      margin: 1rem 0;
+     display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+  }
+  .about-social a {
+      margin-right: 1rem;
+      color: #0a4d3c;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.2s;
+  }
+  .about-social a:hover {
+      color: #0a4d3c;
+  }
+  .about-buttons {
+      display: flex;
+      gap: 1rem;
+  }
+  .btn-primary {
+        background: #0a4d3c;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 16px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.2s;
+  }
+    .btn-primary:hover {
+            background: #16a085;
+    }
+    .btn-secondary {
+        background: #16a085;
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 16px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.2s, color 0.2s;
+    }
